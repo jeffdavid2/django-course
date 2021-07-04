@@ -14,4 +14,8 @@ def about(request):
 def login(request):
     return render(request, 'prueba/login.html')
 
+def products(request):
+    return render(request, 'prueba/products.html')
+
+
 
